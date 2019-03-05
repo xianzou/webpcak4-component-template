@@ -1,0 +1,8 @@
+dist/
+node_modules/
+public/
+./webpack.config.js
+README.md
+/lib
+/es
+/bin
