@@ -10,7 +10,7 @@ exmaple/app.js下展示你的组件
 
 
 ```js
-//配置入口文件
+//配置入口文件 config/webpack.base.js
 commonConfig = {
     input: '../src/components/Button/index.js', // 组件入口
     cssExtract: true // 是否单独抽取样式

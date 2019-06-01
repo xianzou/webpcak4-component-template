@@ -1,12 +1,13 @@
 {
     "plugins": [
         [
-        "@babel/plugin-transform-runtime",
-            {
-            "regenerator": false,
-            "useESModules": true
-            }
-        ],
+            "@babel/plugin-transform-runtime",
+                {
+                    "regenerator": false,
+                    "useESModules": true,
+                    "corejs": 3
+                }
+            ],
         ["@babel/plugin-proposal-decorators", { "legacy": true }],
         ["@babel/plugin-proposal-class-properties", { "loose": true }]
     ],
@@ -16,6 +17,7 @@
             {
                 "modules":false,
                 "useBuiltIns": "usage",
+                "corejs": 3,
                 "targets": {
                     "browsers": ["last 2 versions", "ie >= 9"]
                 }
